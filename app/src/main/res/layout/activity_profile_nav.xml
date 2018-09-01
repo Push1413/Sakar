@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile_nav">
+
+    <TextView
+        android:id="@+id/nameh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:text="NAME:-"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nameb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/emailh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:text="EMAIL:-"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/emailb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+               />
+
+    <TextView
+        android:id="@+id/phoneh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        android:text="MobileNo:-"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/phoneb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        android:ems="10"
+        />
+
+
+
+</RelativeLayout>

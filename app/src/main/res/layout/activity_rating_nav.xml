@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skin"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="40dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+
+        android:id="@+id/android_rating_bar_example"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like the App ? Rate us now !"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:rating="0" />
+
+    <Button
+        android:id="@+id/ratingSubmitButton"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/myfav"
+        android:onClick="rateSubmit"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/capsule"
+        android:layout_height="50dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/ratingDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Your Rate"
+        android:onClick="rateSubmit"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center|bottom"
+        android:text="Made with Love from IceCoders"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+</LinearLayout>

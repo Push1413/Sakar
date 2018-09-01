@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="80dp"
+    android:background="@color/skin"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:text="Hey there ! Hope you enjoyed SAKAR Service towards Digital India. We are looking forward to hear from you. Kindly share your feedback, suggestions to our developers to serve you better !!"
+        />
+
+    <Button
+
+        android:id="@+id/sendEmail"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/myfav"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/capsule"
+        android:layout_height="50dp"
+        android:text="Send Email"/>
+
+</LinearLayout>
