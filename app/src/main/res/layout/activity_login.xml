@@ -42,6 +42,12 @@
             android:layout_height="55dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="match_parent"
+        android:id="@+id/progress_circular"
+
+        android:layout_height="wrap_content"/>
+
 
 
     <Button
